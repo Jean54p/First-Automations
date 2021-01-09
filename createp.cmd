@@ -1,2 +1,5 @@
 @ECHO OFF
-C:\Users\jp-ro\AppData\Local\Programs\Python\Python39\python.exe C:\Users\jp-ro\Documents\PycharmProjects\First-Automations\createp.py
+
+python C:\Users\jp-ro\Documents\PycharmProjects\First-Automations\createp.py %*
+cd \Users\jp-ro\Desktop\Projects\%1
+echo READ ME FILE > README.txt
